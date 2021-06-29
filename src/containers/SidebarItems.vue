@@ -23,6 +23,10 @@ export default {
                   to: '/policies'
                 },
                 {
+                  name: 'Cancelled Policies',
+                  to: '/policies/cancelled'
+                },
+                {
                   name: 'Buy health insurance',
                   to: 'policies/health/buy'
                 },

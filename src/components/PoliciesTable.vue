@@ -85,7 +85,7 @@
 // import url from '@/main'
 
 const fields = [
-  { key: 'fullname', _style:'min-width:30%', label: 'Customer Name' },
+  { key: 'fullname', _style:'min-width:30%', label: 'Agent Name' },
   {key: 'in', label: 'Policy number'},
   {key:'amount', label: 'Premium'},
   { key: 'phone', label: 'Phone number', _style:'min-width:20%;' },

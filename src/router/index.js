@@ -15,6 +15,7 @@ const SingleAgent = () => import('@/views/agents/SingleAgent')
 const Devices = () => import('@/views/devices/Devices')
 const ManageWallet = () => import('@/views/wallet/ManageWallet')
 const Policies = () => import('@/views/policies/Policies')
+const CancelledPolicies = () => import('@/views/policies/CancelledPolicies')
 const BuyHealth = () => import('@/views/policies/BuyHealth')
 const Login = () => import('@/views/pages/Login')
 
@@ -53,6 +54,11 @@ export default new Router({
               name: 'Health',
               path: '/policies/health/buy',
               component: BuyHealth
+            },
+            {
+              name: 'cancelledpolicies',
+              path: '/policies/cancelled',
+              component: CancelledPolicies
             }
           ]
         },
