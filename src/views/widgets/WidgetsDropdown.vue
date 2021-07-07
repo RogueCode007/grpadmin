@@ -75,6 +75,25 @@
         </template>
       </CWidgetDropdown>
     </CCol>
+    <CCol sm="6" lg="4">
+      <CWidgetDropdown color="gradient-danger" header="20" text="Cancelled Claims" style="min-height: 150px"> 
+        <template #default>
+          
+        </template>
+        <template #footer>
+          <CChartLineSimple
+            class="mt-3"
+            style="height:70px"
+            background-color="rgba(255,255,255,.2)"
+            :data-points="[78, 81, 80, 45, 34, 12, 40]"
+            :options="{ elements: { line: { borderWidth: 2.5 }}}"
+            point-hover-background-color="success"
+            label="Defaults"
+            labels="months"
+          />
+        </template>
+      </CWidgetDropdown>
+    </CCol>
     <!-- <CCol sm="6" lg="4">
       <CWidgetDropdown color="gradient-danger" header="#50,000" text="Value of Loan Defaults" style="min-height: 150px">
         <template #default>

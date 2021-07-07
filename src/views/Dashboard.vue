@@ -3,10 +3,10 @@
     <WidgetsDropdown  />
     <CCard>
       <CCardHeader>
-        <CIcon name="cil-grid"/>Most recent Applications
+        <CIcon name="cil-grid"/>Agents
       </CCardHeader>
       <CCardBody>
-        <RecentCustomers />
+        <CustomersTable />
       </CCardBody>
     </CCard>
    
@@ -17,7 +17,7 @@
 import MainChartExample from './charts/MainChartExample'
 import WidgetsDropdown from './widgets/WidgetsDropdown'
 import WidgetsBrand from './widgets/WidgetsBrand'
-import RecentCustomers from "@/components/RecentCustomers"
+import CustomersTable from "@/components/CustomersTable"
 // import RecentOrders from '@/components/RecentOrders'
 // import axios from 'axios'
 // import url from '@/main'
@@ -27,7 +27,7 @@ export default {
     MainChartExample,
     WidgetsDropdown,
     WidgetsBrand,
-    RecentCustomers
+    CustomersTable
   },
   data () {
     return {
